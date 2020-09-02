@@ -1,0 +1,82 @@
+// @import "./index.scss";
+@use "./base.scss";
+
+.App {
+  display: flex;
+  flex-basis: 40%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5vw;
+
+  .above-fold {
+    width: 40%;
+    margin-right: 40px;
+
+    h1 {
+      font-size: 40px;
+    }
+
+    p {
+      font-weight: 400;
+    }
+  }
+
+  .signup-container {
+    width: 50%;
+
+    .heading {
+      background-color: base.$blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 10px;
+      height: 75px;
+      @include base.box-shadow;
+      margin-bottom: 15px;
+      min-width: base.$box-min-width;
+
+      p {
+        max-width: 80%;
+      }
+    }
+  }
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 865px) {
+  .App {
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+
+    .above-fold {
+      width: 80%;
+      margin: 25px 0;
+    }
+
+    .signup-container {
+      width: 80%;
+      .heading {
+        height: 75px;
+      }
+    }
+  }
+
+  .Footer {
+    position: relative;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .Footer {
+    display: none;
+  }
+}

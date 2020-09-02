@@ -1,0 +1,9 @@
+@use "../base.scss";
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: base.$gray-blue;
+}
