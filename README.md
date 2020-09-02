@@ -1,7 +1,7 @@
 
 # Frontend Mentor - Intro component with sign-up form
 
-![Design preview for sign up form](./assets/sign-up-demo.png)
+![Design preview for sign up form](./src/assets/sign-up-demo.png)
 
 ## Welcome
 
