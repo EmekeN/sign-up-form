@@ -9,7 +9,7 @@ export default function Footer() {
         <a href="https://www.frontendmentor.io/profile/EmekeN" target="_blank" rel="noopener noreferrer">
            Frontend Mentor{" "}
         </a>
-        . Coded by <a href="https://www.linkedin.com/in/emeke-nkadi-4a738790/">Emeke Nkadi</a>.
+        . Coded by <a href="https://github.com/EmekeN/sign-up-form">Emeke Nkadi</a>.
       </p>
     </footer>
   );

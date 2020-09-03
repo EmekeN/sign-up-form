@@ -14,9 +14,12 @@ $box-min-width: 275px;
   box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.3);
 }
 
-* {
-  letter-spacing: 0.05em;
+html {
   box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  letter-spacing: 0.05em;
 }
 
 div {

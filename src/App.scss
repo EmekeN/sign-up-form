@@ -23,7 +23,7 @@
   }
 
   .signup-container {
-    width: 50%;
+    // width: 50%;
 
     .heading {
       background-color: base.$blue;
@@ -58,14 +58,19 @@
     margin: 0;
 
     .above-fold {
-      width: 80%;
+      width: 65%;
       margin: 25px 0;
+
+      h1 {
+        letter-spacing: normal;
+      }
     }
 
     .signup-container {
-      width: 80%;
+      margin: 0 5vw;
       .heading {
         height: 75px;
+        margin-bottom: 25px;
       }
     }
   }
